@@ -1,5 +1,5 @@
 :root {
-  --primary: #d1c5e0;
+  --primary: #acabad;
   --background: #121212;
   --card-bg: #1e1e1e;
   --text: #e0e0e0;
@@ -85,6 +85,8 @@ h2 {
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
   padding: 1.5rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 .card:hover {
@@ -98,6 +100,12 @@ h2 {
   gap: 1.5rem;
 }
 
+.low-p {
+  font-size: 13px;
+  color: #ccc9c9;
+  margin-top: auto;
+  /* bottom: 0; */
+}
 a {
   color: var(--primary);
   text-decoration: none;
@@ -156,4 +164,22 @@ footer {
 .icon-btn svg {
   width: 20px;
   height: 20px;
+}
+
+.habilidades-lista {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.habilidades-lista li {
+  width: 33.33%; /* Para criar 3 colunas */
+  padding: 5px 0;
+  text-align: center;
+  transition: transform 0.2s ease-in-out; /* Adiciona uma transição suave para o efeito */
+}
+
+.habilidades-lista li:hover {
+  transform: scale(1.1); /* Aumenta o tamanho em 10% ao passar o mouse */
 }
