@@ -1,9 +1,10 @@
 :root {
-  --primary: #acabad;
-  --background: #121212;
-  --card-bg: #1e1e1e;
-  --text: #e0e0e0;
-  --subtext: #ccc9c9;
+  /* Novas Cores para Modo Claro */
+  --primary: #17a2b8;
+  --background: #f8f9fa;
+  --card-bg: #ffffff;
+  --text: #212529;
+  --subtext: #6c757d;
 }
 
 * {
@@ -20,11 +21,11 @@ body {
 }
 
 header {
-  background: linear-gradient(135deg, #1f1c2c 0%, #928dab 100%);
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%); /* Gradiente claro */
   color: var(--primary);
   padding: 3rem 1rem;
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
   position: relative;
   overflow: hidden;
 }
@@ -36,7 +37,7 @@ header::after {
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, rgba(255,255,255,0.02) 20%, transparent 70%);
+  background: radial-gradient(circle, rgba(0,0,0,0.02) 20%, transparent 70%); /* Ajustado para fundo claro */
   animation: moveTexture 20s linear infinite;
   pointer-events: none;
 }
@@ -58,7 +59,7 @@ header h1 {
 
 header p {
   font-size: 1.1rem;
-  color: var(--subtext);
+  color: var(--subtext); 
 }
 
 .container {
@@ -82,7 +83,7 @@ h2 {
 .card {
   background: var(--card-bg);
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Sombra mais suave */
   padding: 1.5rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
@@ -91,7 +92,7 @@ h2 {
 
 .card:hover {
   transform: scale(1.02);
-  box-shadow: 0 8px 20px rgba(187, 134, 252, 0.2);
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.15); /* Sombra baseada na nova --primary */
 }
 
 .grid {
@@ -102,9 +103,8 @@ h2 {
 
 .low-p {
   font-size: 13px;
-  color: #ccc9c9;
+  color: var(--subtext); /* Usar variável */
   margin-top: auto;
-  /* bottom: 0; */
 }
 a {
   color: var(--primary);
@@ -113,13 +113,13 @@ a {
 }
 
 a:hover {
-  color: #d5bfff;
+  color: #0056b3; /* Um tom mais escuro do azul primário (se --primary for #007bff) */
 }
 
 footer {
   text-align: center;
   padding: 2rem 1rem;
-  background-color: #1a1a1a;
+  background-color: #e9ecef;
   color: var(--subtext);
   font-size: 0.9rem;
 }
@@ -144,7 +144,7 @@ footer {
 
 
 .icon-btn {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.05); 
   border-radius: 50%;
   padding: 0.6rem;
   display: flex;
@@ -157,7 +157,7 @@ footer {
 }
 
 .icon-btn:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.1); 
   transform: scale(1.1);
 }
 
@@ -174,12 +174,12 @@ footer {
 }
 
 .habilidades-lista li {
-  width: 33.33%; /* Para criar 3 colunas */
+  width: 33.33%;
   padding: 5px 0;
   text-align: center;
-  transition: transform 0.2s ease-in-out; /* Adiciona uma transição suave para o efeito */
+  transition: transform 0.2s ease-in-out;
 }
 
 .habilidades-lista li:hover {
-  transform: scale(1.1); /* Aumenta o tamanho em 10% ao passar o mouse */
+  transform: scale(1.1);
 }
