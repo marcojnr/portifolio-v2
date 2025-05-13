@@ -4,7 +4,7 @@
   --background: #f8f9fa;
   --card-bg: #ffffff;
   --text: #212529;
-  --subtext: #6c757d;
+  --subtext: #575b5e;
 }
 
 * {
@@ -102,19 +102,17 @@ h2 {
 }
 
 .low-p {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--subtext); /* Usar variável */
   margin-top: auto;
 }
 a {
-  color: var(--primary);
+  /* color: var(--primary); */
+  color: #212529;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-a:hover {
-  color: #0056b3; /* Um tom mais escuro do azul primário (se --primary for #007bff) */
-}
 
 footer {
   text-align: center;
@@ -182,4 +180,12 @@ footer {
 
 .habilidades-lista li:hover {
   transform: scale(1.1);
+}
+
+.projeto-img {
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
