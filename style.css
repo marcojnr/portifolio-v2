@@ -184,8 +184,38 @@ footer {
 
 .projeto-img {
   width: 100%;
-  max-height: 450px;
+  height: 210px;
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 10px;
+}
+
+.link_d {
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.container_text {
+  text-align: center; /* Centraliza o texto dentro do container */
+}
+
+.typing-animation {
+  font-size: 14px;
+  overflow: hidden; /* Esconde o cursor enquanto a animação não começa */
+  white-space: nowrap; /* Impede que o texto quebre de linha */
+  border-right: .15em solid orange; /* Efeito de cursor piscando */
+  font-size: 2em; /* Tamanho da fonte */
+  color: #333; /* Cor do texto */
+  animation: typing 4s steps(30, end) forwards, blink 0.7s step-end infinite;
+}
+
+/* Define a animação de digitação */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 24ch } /* Número de caracteres */
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
 }
