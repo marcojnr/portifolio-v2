@@ -1,3 +1,5 @@
-# portifolio Marco Batista
+# Portifolio Marco Batista
 
-em desenvolvimento
+Informações pessoais e profissionais, projetos, skills e contatos.
+
+https://marcojnr.github.io/portifolio-v2/
