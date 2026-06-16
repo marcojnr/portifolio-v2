@@ -30,13 +30,13 @@
     <section>
       <h2>Sobre mim</h2>
       <div class="card">
-        <p>Como Analista de Dados, possuo uma profunda paixão por converter dados complexos em decisões estratégicas acionáveis. Minha experiência abrange modelagem, estruturação, análise e visualização de informações, com foco contínuo na automatização de tarefas e na otimização de processos para a entrega de insights de alto valor.</p>
+        <p>Trabalhando com dados, sou apaixonado por transformar-los em ativos estratégicos para o negócio. Minha experiência abrange a construção e manutenção de pipelines, modelagem e arquitetura de dados, integração entre sistemas e otimização de processos, garantindo qualidade e confiabilidade das informações.</p>
         <br>
         <p>Sempre buscando aprimorar minhas habilidades, estou interessado em explorar novas ferramentas e metodologias que possam contribuir para um trabalho mais eficiente e assertivo.</p>
         <br>
-        <p>Sou graduado em Engenharia da Computação e tenho experiência prática em projetos de análise de dados, onde utilizei Python, R, SQL, Cloud e ferramentas de BI para criar relatórios que auxiliam na tomada de decisões.</p>
+        <p>Sou graduado em Engenharia da Computação e possuo experiência prática em projetos de dados, atuando com Python, SQL, Databricks, AWS, DBT, Airflow e outras ferrametas para tratamento de dados. Ao longo da minha trajetória, participei do desenvolvimento de soluções para ingestão, processamento e disponibilização de dados, apoiando iniciativas de BI, Analytics e tomada de decisão baseada em informações.</p>
         <br>
-        <p>Apaixonado por tecnologia, nas horas vagas procuro passar o tempo com games, se aventurarando em mundos virtuais e enfrentando desafios que testam as habilidades.
+        <p>Apaixonado por tecnologia, nas horas vagas gosto de explorar novas tendências da área, estudar soluções inovadoras e aproveitar momentos de lazer com games, encarando desafios que estimulam o raciocínio lógico e a resolução de problemas.
         </p>
       </div>
     </section>
@@ -45,8 +45,8 @@
       <h2>Experiências</h2>
       <div class="grid">
         <div class="card">
-          <strong>Mobi2buy — Analista de Dados Jr</strong><br>
-          <p>Trabalho com a análise e o processamento de dados para melhorar a performance operacional e fornecer insights valiosos que apoiam decisões estratégicas. Também crio soluções de automação com foco em simplificar rotinas, diminuir tarefas repetitivas e elevar a eficiência, utilizando metodologias ágeis e tecnologia/ferramentas essenciais.</p>
+          <strong>Mobi2buy — Analista de Dados Pleno</strong><br>
+          <p>Especialista em Engenharia e Análise de Dados, focado em desenhar soluções que transformam dados complexos em insights acionáveis e de alto valor corporativo. Desenvolvo arquiteturas modernas de dados e fluxos automatizados que simplificam processos, reduzem o trabalho manual e elevam a maturidade analítica das organizações.</p>
           <br>
           <p class="low-p">06/2023 — ATUAL</p>
         </div>
@@ -84,12 +84,12 @@
           <li>R</li>
           <li>Pandas</li>
           <li>Youtrack</li>
+          <li>Databricks</li>
           <li>SSIS</li>
-          <li>Power Query</li>
           <li>ETL</li>
           <li>Web Scraping</li>
-          <li>ML</li>
-          <li>Google Cloud</li>
+          <li>Airflow</li>
+          <li>Cloud</li>
         </ul>
       </div>
     
@@ -97,33 +97,100 @@
 
     <section>
       <h2>Projetos</h2>
-      <div class="grid">
-        <div class="card">
-          <strong style="text-align: center;">Dados de Vendas com DBT</strong><br>
-          <a href="https://github.com/marcojnr/dbt-projeto" target="_blank">
-            <img src="img/dbt_porti.png" alt="Projeto DBT" class="projeto-img">
-          </a>
-          <a>Projeto desenvolvido utilizando a ferramenta DBT (Data Build Tool) para a modelagem de dados relacionados a vendas (fictícias). <br>O projeto simula um cenário de negócio para aplicar práticas modernas de engenharia de dados, como modelos incrementais e transformações SQL modularizadas. Utiliza modelagem em camadas (staging e marts), com documentação automatizada, facilitando análises de KPIs e criação de dashboards. </a><br>
-          <p class="low-p">Tecnologias: DBT, SQL, Big Query, Yml, Env</p>
+      <div class="card">
+
+        <!-- Projeto 1-->
+        <div class="projeto-card">
+          <strong class="projeto-titulo">Arquitetura Medallion no Databricks</strong>
+          <div class="projeto-body">
+            <a href="https://github.com/marcojnr/analise-operacao" target="_blank">
+              <img src="img/sentfdfr.png" alt="Projeto analise-operacao" class="projeto-img">
+            </a>
+            <p class="projeto-desc">Implementação de um pipeline de dados utilizando a plataforma Databricks e o conceito de Arquitetura Medallion. O objetivo principal é automatizar o fluxo de ingestão, governança e transformação de grandes volumes de dados unindo a flexibilidade de um Data Lake, convertendo dados brutos em ativos analíticos de alta performance prontos para consumo por times de Ciência de Dados.</p>
+          </div>
+          <div class="projeto-footer">
+            <span class="projeto-tag">Databricks</span>
+            <span class="projeto-tag">SQL</span>
+            <span class="projeto-tag">Python</span>
+            <span class="projeto-tag">GIT</span>
+            <span class="projeto-tag">Cloud</span>
+          </div>
         </div>
-        <div class="card">
-          <strong style="text-align: center;">TCC Analise de sentimento</strong><br>
-          <a href="https://github.com/marcojnr/analise-sentimento" target="_blank">
-            <img src="img/sent.png" alt="Projeto TCC analise-sentimento" class="projeto-img">
-          </a>
-          <a>Este projeto tem como objetivo desenvolver uma aplicação capaz de extrair automaticamente os comentários de qualquer vídeo do YouTube. Após a coleta desses dados, o sistema realiza uma análise de sentimentos com o intuito de identificar e classificar as emoções expressas nos comentários, como positivas, negativas ou neutras. Para isso, são aplicadas técnicas de machine learning, que permitem treinar modelos capazes de reconhecer padrões e comportamentos presentes no texto. </a><br>
-          <p class="low-p">Tecnologias: Python, Regex, NLTK, Pandas, Matplotlib, Googleapiclient </p>
+
+        <!-- Projeto 2 -->
+        <div class="projeto-card">
+          <strong class="projeto-titulo">Dados de Vendas com DBT</strong>
+          <div class="projeto-body">
+            <a href="https://github.com/marcojnr/dbt-projeto" target="_blank">
+              <img src="img/dbt_porti.png" alt="Projeto DBT" class="projeto-img">
+            </a>
+            <p class="projeto-desc">Projeto desenvolvido utilizando a ferramenta DBT (Data Build Tool) para a modelagem de dados relacionados a vendas (fictícias). O projeto simula um cenário de negócio para aplicar práticas modernas de engenharia de dados, como modelos incrementais e transformações SQL modularizadas. Utiliza modelagem em camadas (staging e marts), com documentação automatizada, facilitando análises de KPIs e criação de dashboards.</p>
+          </div>
+          <div class="projeto-footer">
+            <span class="projeto-tag">DBT</span>
+            <span class="projeto-tag">SQL</span>
+            <span class="projeto-tag">Big Query</span>
+            <span class="projeto-tag">Yml</span>
+            <span class="projeto-tag">Env</span>
+          </div>
         </div>
-        <div class="card">
-          <strong style="text-align: center;">API Kaggle e dashboad F1</strong><br>
-          <a href="https://github.com/marcojnr/API-Kaggle-Download-Data" target="_blank">
-            <img src="img/f11.png" alt="Projeto TCC dashboard formula 1" class="projeto-img">
-          </a>
-          <a>A iniciativa deste projeto foi voltada a realizar o download automatizado de conjuntos de dados disponíveis na plataforma Kaggle, por meio de sua API oficial. A partir dos dados obtidos, que são relacionados à Fórmula 1, foi desenvolvido um dashboard interativo com o propósito de visualizar e explorar informações relevantes sobre os desempenho de pilotos, equipes, circuitos e temporadas ao longo do tempo. <br> <br> <a class="link_d" href="https://app.powerbi.com/view?r=eyJrIjoiZWFkZjk5NTgtZTNhNC00OTJhLWE3ZGYtZTAzMGQ4ZTBmMDdkIiwidCI6IjMxZmIxYTk3LThjNjMtNDg3YS1hYzY2LTM3M2VhYmQzMzQ2MyJ9" target="_blank">DASHBOARD</a> </a><br>
-          <p class="low-p">Tecnologias: Python, KaggleApi, Pandas, Power BI </p>
+
+            <!-- Projeto 3 -->
+        <div class="projeto-card">
+          <strong class="projeto-titulo">TCC Análise de Sentimento</strong>
+          <div class="projeto-body">
+            <a href="https://github.com/marcojnr/analise-sentimento" target="_blank">
+              <img src="img/sent.png" alt="Projeto TCC analise-sentimento" class="projeto-img">
+            </a>
+            <p class="projeto-desc">Este projeto tem como objetivo desenvolver uma aplicação capaz de extrair automaticamente os comentários de qualquer vídeo do YouTube. Após a coleta desses dados, o sistema realiza uma análise de sentimentos com o intuito de identificar e classificar as emoções expressas nos comentários, como positivas, negativas ou neutras. Para isso, são aplicadas técnicas de machine learning, que permitem treinar modelos capazes de reconhecer padrões e comportamentos presentes no texto.</p>
+          </div>
+          <div class="projeto-footer">
+            <span class="projeto-tag">Python</span>
+            <span class="projeto-tag">Regex</span>
+            <span class="projeto-tag">NLTK</span>
+            <span class="projeto-tag">Pandas</span>
+            <span class="projeto-tag">Matplotlib</span>
+            <span class="projeto-tag">Googleapiclient</span>
+          </div>
         </div>
+
+      <!-- Projeto 4 -->
+        <div class="projeto-card">
+          <strong class="projeto-titulo">API Kaggle e Dashboard F1</strong>
+          <div class="projeto-body">
+            <a href="https://github.com/marcojnr/API-Kaggle-Download-Data" target="_blank">
+              <img src="img/f11.png" alt="Projeto dashboard formula 1" class="projeto-img">
+            </a>
+            <p class="projeto-desc">A iniciativa deste projeto foi voltada a realizar o download automatizado de conjuntos de dados disponíveis na plataforma Kaggle, por meio de sua API oficial. A partir dos dados obtidos, relacionados à Fórmula 1, foi desenvolvido um dashboard interativo com o propósito de visualizar e explorar informações relevantes sobre o desempenho de pilotos, equipes, circuitos e temporadas ao longo do tempo. <a class="link_d" href="https://app.powerbi.com/view?r=eyJrIjoiZWFkZjk5NTgtZTNhNC00OTJhLWE3ZGYtZTAzMGQ4ZTBmMDdkIiwidCI6IjMxZmIxYTk3LThjNjMtNDg3YS1hYzY2LTM3M2VhYmQzMzQ2MyJ9" target="_blank">Ver Dashboard →</a></p>
+          </div>
+          <div class="projeto-footer">
+            <span class="projeto-tag">Python</span>
+            <span class="projeto-tag">KaggleApi</span>
+            <span class="projeto-tag">Pandas</span>
+            <span class="projeto-tag">Power BI</span>
+          </div>
+        </div>
+
+        <!-- Projeto 5 -->
+        <div class="projeto-card">
+          <strong class="projeto-titulo">Data Lake de E-commerce</strong>
+          <div class="projeto-body">
+            <a href="https://github.com/marcojnr/Adddd" target="_blank">
+              <img src="img/f11ddd.png" alt="Projeto E-commerce Airflow" class="projeto-img">
+            </a>
+            <p class="projeto-desc">Pipeline de dados ponta a ponta que transforma dados brutos em métricas de negócio prontas para BI. O projeto utiliza Apache Airflow como ferramenta base no desenvolvimento, além de Python e MinIO para orquestrar e armazenar dados estruturados nas camadas Bronze, Silver e Gold, seguindo padrões rigorosos de qualidade e governança da Engenharia de Dados.</p>
+          </div>
+          <div class="projeto-footer">
+            <span class="projeto-tag">Apache Airflow</span>
+            <span class="projeto-tag">Python</span>
+            <span class="projeto-tag">MinIO</span>
+            <span class="projeto-tag">Docker</span>
+          </div>
+        </div>
+
       </div>
     </section>
+
 
     <section>
       <h2>Contato</h2>
@@ -136,7 +203,7 @@
   </div>
 
   <footer>
-    &copy; 2025 Marco Batista — Portfólio de Data Science 💻
+    &copy; 2026 Marco Batista — Portfólio de Dados 💻
   </footer>
 </body>
 </html>
