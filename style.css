@@ -5,6 +5,7 @@
   --card-bg: #ffffff;
   --text: #212529;
   --subtext: #575b5e;
+  --sombracaixa: rgba(0,0,0,0.1);
 }
 
 * {
@@ -83,7 +84,7 @@ h2 {
 .card {
   background: var(--card-bg);
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Sombra mais suave */
+  box-shadow: 0 4px 10px var(--sombracaixa); /* Sombra mais suave */
   padding: 1.5rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
@@ -101,16 +102,10 @@ h2 {
 }
 
 /* PARTE DE PROJETOS */
-/* .projetos-lista {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-} */
- 
 .projeto-card {
   background: var(--card-bg);
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px var(--sombracaixa);
   padding: 1.25rem;
   display: flex;
   flex-direction: column;
@@ -141,7 +136,7 @@ h2 {
 }
 .projeto-body .projeto-img {
   width: 100%;
-  height: 160px;
+  height: 210px;
   object-fit: cover;
   border-radius: 8px;
   display: block;
@@ -261,6 +256,7 @@ footer {
 
 .habilidades-lista li:hover {
   transform: scale(1.1);
+  color: var(--primary);  
 }
 
 .projeto-img {
